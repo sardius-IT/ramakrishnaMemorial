@@ -46,24 +46,33 @@ const services = [
   },
 ];
 
-
 export default function Services() {
   return (
-    <section id="services" className="py-16 bg-gray-950">
-      <div className="container mx-auto text-center">
-        <h3 className="text-7xl font-semibold text-blue-700 mb-10">
+    <section id="services" className="bg-gray-950">
+      {/* Header Section with Background Image */}
+      <section
+        className="bg-cover bg-center bg-no-repeat py-20 text-center text-white"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/young.avif')`,
+        }}
+      >
+        <h2 className="text-4xl md:text-6xl font-bold mb-4">
           Our Services
-        </h3>
-        <div className="grid md:grid-cols-3 gap-6 ">
+        </h2>
+      </section>
+
+      {/* Services Grid */}
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="p-6 shadow-2xs  rounded-2xl  hover:shadow-lg hover:shadow-blue-500 bg-white "
+              className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl hover:shadow-blue-500/30 transition duration-300"
             >
-              <h4 className="text-xl font-bold text-yellow-500">
+              <h4 className="text-lg font-bold text-blue-700 mb-2">
                 {service.title}
               </h4>
-              <p className="text-gray-600 mt-2 ">{service.description}</p>
+              <p className="text-gray-700 text-sm">{service.description}</p>
             </div>
           ))}
         </div>
