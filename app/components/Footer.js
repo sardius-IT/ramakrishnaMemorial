@@ -16,7 +16,7 @@ export default function Footer() {
             height={100}
             className="mb-4 rounded-2xl"
           />
-          <p className="mb-6 text-sm leading-relaxed">
+          <p className="mb-6 text-lg leading-relaxed">
             Trusted for over 52 years, providing expert care in mother and child
             health, normal & cesarean deliveries, uterus operations, fertility
             support, and pediatric care — with compassion,
@@ -48,12 +48,15 @@ export default function Footer() {
 
         {/* Right: Office Hours */}
         <div className="max-w-sm grid justify-start md:justify-end">
-          <h3 className="font-semibold text-lg mb-2">Hospital Hours</h3>
+          <h3 className="font-semibold  mb-2 text-2xl">Hospital Hours</h3>
           <div className="flex items-center gap-2 text-yellow-400 mb-2">
-            <IoMdTime />
-            <span className="text-2xl">24/7 Open</span>
-          </div>
-          <p className="text-2xl">
+            <IoMdTime  className="text-4xl"/>
+            <span className="text-xl">24/7 Open</span>
+            </div>
+             <p className="text-2xl">
+           <span className="text-yellow-500">contact :</span>{" "}991-230-0697
+          </p>
+          <p className="text-xl">
             Bhasker Theatre, Chilkaluripet-522616, Andhra Pradesh
           </p>
         </div>

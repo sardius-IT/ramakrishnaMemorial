@@ -8,7 +8,7 @@ import { useMemo } from "react";
 const doctors = [
  {
   name: "Dr. Peddabbayi Vellaturi",
-  image: "/VIVEK .K IMAG.jpeg",
+  image: "/52.jpg",
   specialty: "Interventional Cardiologist",
   interests:
     "Coronary Angioplasty, Complex Cardiac Interventions, Hypertension Management, Heart Failure, Preventive Cardiology, Cardiac Imaging",
@@ -18,7 +18,7 @@ const doctors = [
 ,
  {
   name: "Dr. Kishore Vellaturi MBBS, DCh",
-  image: "/VIVEK .K IMAG.jpeg",
+  image: "/kishore.jpg",
   specialty: "Paediatrician",
   interests:
     "Child Nutrition, Pediatric Cardiology, Neonatal Care, Childhood Asthma, Immunization, Preventive Pediatric Care",
@@ -28,7 +28,7 @@ const doctors = [
 
 {
   name: "Dr. Rani Vellaturi MBBS, DGO",
-  image: "/VIVEK .K IMAG.jpeg",
+  image: "/rani.jpg",
   specialty: "Obstetrician and Gynaecologist",
   interests:
     "Prenatal Care, High-Risk Pregnancy, Menstrual Disorders, Menopause Management, Fertility Support, Preventive Women's Health",

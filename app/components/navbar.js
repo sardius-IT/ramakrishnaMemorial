@@ -11,8 +11,9 @@ export default function Header() {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
-        <Link href="/">
+        <Link href="/" className='flex '>
           <img src="/LOGO[1].png" alt="MediCare Logo" className="h-14 w-auto" />
+          <h1 className=' grid items-center font-bold text-lg'>Ramakrishna Memorial Nursing Home</h1>
         </Link>
 
         {/* Desktop Navigation */}
