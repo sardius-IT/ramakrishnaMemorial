@@ -21,7 +21,7 @@ export default function Header() {
           <Link href="/services" className="text-gray-700 hover:text-blue-500">Services</Link>
           <Link href="/find-doctor" className="text-gray-700 hover:text-blue-500">Doctors</Link>
           <Link href="/appointment" className="text-gray-700 hover:text-blue-500">Appointments</Link>
-          <Link href="/contact" className="text-gray-700 hover:text-blue-500">Contact</Link>
+          
         </nav>
 
         {/* Mobile Menu Toggle */}
@@ -41,7 +41,7 @@ export default function Header() {
           <Link href="/services" className="block text-gray-700 hover:text-blue-500">Services</Link>
           <Link href="/find-doctor" className="block text-gray-700 hover:text-blue-500">Doctors</Link>
           <Link href="/appointment" className="block text-gray-700 hover:text-blue-500">Appointments</Link>
-          <Link href="/contact" className="block text-gray-700 hover:text-blue-500">Contact</Link>
+
         </div>
       )}
     </header>
