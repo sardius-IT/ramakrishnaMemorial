@@ -22,7 +22,7 @@ export default function HomePage() {
       image: "/man-being-sad-about-his-ill-wife.jpg",
       title: "Fertility Support – Helping Families Grow Since 1972",
       subtitle: "REPRODUCTIVE HEALTH",
-      description: `At Ramkrishna Memorial Nursing Home, we understand the emotional journey of trying to conceive. With over 52 years of trusted care, we offer expert guidance, evaluation, and support for couples on the path to parenthood.`,
+      description: `At Ramakrishna Memorial Nursing Home, we understand the emotional journey of trying to conceive. With over 52 years of trusted care, we offer expert guidance, evaluation, and support for couples on the path to parenthood.`,
     },
     {
       image:
