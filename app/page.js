@@ -55,7 +55,7 @@ export default function HomePage() {
       <AlertCards />
       <main>
         <Hero />
-        <Services />
+       
 
         {/* Highlights Carousel Section */}
         <div className="bg-[#00294d] text-white py-8 px-4 flex flex-col items-center">
@@ -113,7 +113,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-
+      <Services />
         <QuickLinks />
         <AppointmentForm />
         <Locations />
