@@ -25,24 +25,19 @@ export default function Footer() {
 
           <div className="flex gap-4 text-lg">
             <a
-              href="https://www.facebook.com/profile.php?id=61574679346195"
+              href="https://www.facebook.com/profile.php?id=61576376742727"
               className="p-2 border rounded-full hover:bg-white hover:text-[#002c87] transition"
             >
               <FaFacebookF />
             </a>
             <a
-              href="https://www.instagram.com/mouli_overseas_consultants/"
+              href="https://www.instagram.com/rkm_nursing_home/?next=%2F"
               className="p-2 border rounded-full hover:bg-white hover:text-[#002c87] transition"
             >
               <FaInstagram />
             </a>
 
-            <a
-              href="https://wa.me/9912300697"
-              className="p-2 border rounded-full hover:bg-white hover:text-[#002c87] transition"
-            >
-              <FaWhatsapp />
-            </a>
+          
           </div>
         </div>
 
@@ -54,7 +49,7 @@ export default function Footer() {
             <span className="text-xl">24/7 Open</span>
             </div>
              <p className="text-2xl">
-           <span className="text-yellow-500">contact :</span>{" "}991-230-0697
+           <span className="text-yellow-500">contact :</span>{" "}741-6424-300
           </p>
           <p className="text-xl">
             Bhasker Theatre, Chilkaluripet-522616, Andhra Pradesh
