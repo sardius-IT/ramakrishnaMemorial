@@ -51,7 +51,7 @@ export default function Services() {
   return (
     <section id="services" className="py-16 bg-gray-950">
       <div className="container mx-auto text-center">
-        <h3 className="text-7xl font-semibold text-blue-700 mb-10">
+        <h3 className="text-7xl font-semibold text-blue-200 mb-10">
           Our Services
         </h3>
         <div className="grid md:grid-cols-3 gap-6 ">
