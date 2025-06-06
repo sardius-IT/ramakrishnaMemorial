@@ -20,10 +20,8 @@ const links = [
 
 const QuickLinks = () => {
   return (
-    <section
-      className="py-20  bg-[url('/doctor-is-preparing-syringe-shot.jpg')] bg-cover bg-center bg-no-repeat"
-    >
-      <div className=" p-10 rounded-xl">
+   
+      <div className="  rounded-xl">
         <div className="flex justify-center px-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl w-full">
             {links.map((link, idx) => (
@@ -51,7 +49,7 @@ const QuickLinks = () => {
           </div>
         </div>
       </div>
-    </section>
+   
   );
 };
 
