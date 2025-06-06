@@ -28,14 +28,14 @@ const AlertCards = () => {
               href="tel:9912300697"
               className="text-blue-600 underline font-medium"
             >
-              991-230-0697
+             741-6424-300
             </a>{' '}
             or register online via the link below.
           </p>
 
           <div className="mt-4 font-bold text-[#0A2A73] flex items-center gap-2 text-sm">
             <Link
-              href="#appointment"
+              href="/appointment"
               className="inline-flex items-center gap-2 font-bold text-[#0A2A73] text-sm  hover:text-blue-800 transition-colors"
             >
               <span>Register to donate</span>

@@ -14,8 +14,8 @@ const locations = [
 export default function LocationsPage() {
   return (
     <section className="max-w-5xl mx-auto px-4 py-12">
-      <h1 className="text-7xl font-bold text-[#0A2A73] mb-8 text-center">
-        Our Locations
+      <h1 className="text-7xl font-bold text-red-400 mb-8 text-center">
+        Our Location
       </h1>
 
       <div className="grid gap-8">
